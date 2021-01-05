@@ -1,0 +1,69 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+
+table {
+	width: 100px;
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td {
+	vertical-align: top;
+}
+
+.table-top, .table-left, #accept-left {
+	padding: 0.5em 1em;
+	line-height: 1.5em;
+}
+
+fieldset {
+	width: 55px;
+	margin: 1.5em auto;
+	background-color: #FAFCFF;
+}
+
+legend {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0.5em 15em;
+	margin: 0em;
+	background-color: #EBF4FF;
+}
+
+.table-right {
+	padding: 0.5em 2em 0.5em 0.5em;
+	line-height: 1.5em;
+	vertical-align: top;
+	border: 1px solid #90BEF0;
+	width:200px;
+	margin: 0.5em 0em;
+}
+
+#accept-left, #button-center {
+	background-color: #EBF4FF;
+}
+
+#button-center {
+	text-align: center;
+	padding: 0.5em 1em;
+	line-height: 1.5em;
+}
+
+.button {
+	margin: 0.5em;
+	padding: 0.5em;
+	color: white;
+	width: 7em;
+	background-color: #8C9CBF;
+	border-radius: 5px;
+	border: 1px solid black;
+}

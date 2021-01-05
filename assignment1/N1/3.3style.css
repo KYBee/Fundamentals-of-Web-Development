@@ -1,0 +1,68 @@
+
+body {
+	background: url(images/art-background4.jpg) no-repeat;
+	background-size: cover;
+	font-size: 100%;
+}
+
+header {
+	margin-left: 10rem;
+	background-color: white;
+	width: 16rem;
+	height: 6rem;
+	padding: 1rem;
+}
+
+header h1 {
+	font-family: 'Six Caps', sans-serif;
+	font-size: 3rem;
+}
+
+header h2 {
+	font-size: 0.6rem;
+}
+
+article {
+	background-color: rgba(255,255,255,0.5);
+	margin: 5rem 0rem 0rem 10rem;
+	width: 30rem;
+}
+
+article p {
+	padding: 2rem 1rem 0rem 1rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: serif;
+}
+
+article h2 {
+    background-color: rgba(239,239,239,0.5);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+#timeline {
+	margin: 1rem;
+	padding: 1rem;
+	color: white;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 18rem;
+}
+
+article footer {
+	background-color: #EFEFEF;
+	padding: 1.5rem 1rem 0rem 1rem;
+} 
+
+footer a {
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+	background: url("images/email.png") no-repeat;
+	padding-left: 20px;
+}
+
+a:visited {
+	color: blue;
+}
